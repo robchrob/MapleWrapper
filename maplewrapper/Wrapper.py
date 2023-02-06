@@ -21,7 +21,7 @@ from maplewrapper.utils.window_pos import process_coords, get_classname
 from maplewrapper.utils.nms import non_max_suppression_fast
 
 class wrapper():
-    def __init__(self, player_name, mobs=[], cname="MapleStory"):
+    def __init__(self, player_name, mobs=[], cname="Maple Royals Jan 18"):
         self.wdir = pathlib.Path(__file__).resolve().parents[0]
         self.assets_pth = join(self.wdir,"templates")
         self.cname = get_classname(cname)
